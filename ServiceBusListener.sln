@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusListener", "ServiceBusListener\ServiceBusListener.csproj", "{CE37E60C-FFC5-40E7-8B9A-7C1D578A43D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusListener.Common", "ServiceBusListener.Common\ServiceBusListener.Common.csproj", "{D79CB9D8-3036-4291-BD21-934D5B567D80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE37E60C-FFC5-40E7-8B9A-7C1D578A43D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE37E60C-FFC5-40E7-8B9A-7C1D578A43D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE37E60C-FFC5-40E7-8B9A-7C1D578A43D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE37E60C-FFC5-40E7-8B9A-7C1D578A43D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79CB9D8-3036-4291-BD21-934D5B567D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79CB9D8-3036-4291-BD21-934D5B567D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79CB9D8-3036-4291-BD21-934D5B567D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79CB9D8-3036-4291-BD21-934D5B567D80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
