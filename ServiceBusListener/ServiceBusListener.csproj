@@ -10,6 +10,7 @@
     <ItemGroup>
         <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.17.3" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="8.0.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -19,6 +20,12 @@
     <ItemGroup>
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
+      </Content>
+      <Content Update="appsettings.Development.json">
+        <DependentUpon>appsettings.json</DependentUpon>
+      </Content>
+      <Content Update="appsettings.example.json">
+        <DependentUpon>appsettings.json</DependentUpon>
       </Content>
     </ItemGroup>
     
